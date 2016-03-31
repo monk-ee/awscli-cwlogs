@@ -5,11 +5,11 @@
 #export DH_VERBOSE=1
 
 %:
-        dh $@  --with python3 --buildsystem=pybuild
+    dh $@  --with python3 --buildsystem=pybuild
 
 override_dh_auto_install:
-        python3 setup.py install --root=debian/awscli --install-layout=deb \
-                --install-lib=/usr/share/awscli \
-                --install-scripts=/usr/share/awscli
+    python3 setup.py install --root=debian/awscli --install-layout=deb \
+        --install-lib=/usr/share/awscli \
+        --install-scripts=/usr/share/awscli
 
 # override_dh_auto_build:
