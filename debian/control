@@ -4,11 +4,12 @@ Section: admin
 Priority: optional
 Build-Depends:
  debhelper (>= 9),
+ awscli (>= 1.4.0-1),
  python,
  python-setuptools,
  python3,
  python3-setuptools,
- awscli
+ python-dateutil (>= 2.1)
 Standards-Version: 3.9.6
 X-Python-Version: >= 2.7
 X-Python3-Version: >= 3.3
