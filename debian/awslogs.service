@@ -1,0 +1,12 @@
+[Unit]
+Description=AWSCLI CloudWatch Logs
+
+[Service]
+ExecStart=
+StandardOutput=null
+StandardError=journal
+RestartSec=1
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
