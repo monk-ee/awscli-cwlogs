@@ -1,0 +1,24 @@
+Source: awscli-cwlogs
+Maintainer: Lyndon Swan <lyndon.swan@cloudtrek.com.au>
+Section: admin
+Priority: optional
+Build-Depends: debhelper (>= 9)
+        , python3
+        , python3-setuptools
+        , awscli
+Build-Depends-Indep: python3-six
+        , python3-botocore
+        , python3-colorama
+        , python3-docutils
+        , python3-bcdoc
+        , python3-pyasn1
+        , python3-rsa
+Standards-Version: 3.9.2
+Home Page: http://aws.amazon.com/cli/
+X-Python3-Version: >= 3.3
+
+Package: awscli-cwlogs
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: AWSCLI CloudWatch Logs plugin
+  This awscli plugin provides the pull, push and filter commands to access AWS CloudWatch Logs service.

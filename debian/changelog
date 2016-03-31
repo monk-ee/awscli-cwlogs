@@ -1,0 +1,5 @@
+awscli-cwlogs (1.4.0-1) UNRELEASED; urgency=medium
+
+  * Initial release. (Closes: #XXXXXX)
+
+ -- monkee <monkee@apt.cloudtrek.com.au>  Thu, 31 Mar 2016 00:13:10 +0000
