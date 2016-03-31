@@ -1,0 +1,4 @@
+python:Versions=2.7
+python:Depends=python (>= 2.7), python (<< 2.8), python:any (>= 2.6.6-7~), awscli, python-six, python-dateutil
+python3:Depends=python3-dateutil, python3-six, python3:any (>= 3.3.2-2~), awscli, python3:any (>= 3.3~)
+misc:Depends=
